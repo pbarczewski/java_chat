@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane prefHeight="166.0" prefWidth="243.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindow.Login">
+    <content>
+        <VBox alignment="CENTER" prefHeight="0.0" prefWidth="243.0">
+            <children>
+                <TextField fx:id="textField" alignment="CENTER" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" />
+                <Label fx:id="label" maxWidth="200.0" prefHeight="60.0"
+                       text="Name should equals more then 3, and less then 15 characters."
+                       wrapText="true" VBox.vgrow="ALWAYS">
+                    <VBox.margin>
+                        <Insets top="20.0" />
+                    </VBox.margin>
+               <font>
+                  <Font name="Calibri Italic" size="12.0" />
+               </font>
+                </Label>
+            </children>
+        </VBox>
+    </content>
+</DialogPane>

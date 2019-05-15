@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane prefHeight="95.0" prefWidth="280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Label prefHeight="30.0" prefWidth="299.0" text="Name should equals more then 3, and less then 15 characters. Please try again" wrapText="true">
+         <font>
+            <Font name="Calibri Bold" size="12.0" />
+         </font></Label>
+   </content>
+   <header>
+      <Label alignment="CENTER" text="WARNING" textFill="RED">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font></Label>
+   </header>
+</DialogPane>
